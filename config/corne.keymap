@@ -39,7 +39,7 @@
                 compatible = "zmk,keymap";
 
                 querty_layer {
-                        display_name = "QWERTY"
+                        display_name = "QWERTY";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | [{   |
 // | SHFT |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -55,7 +55,7 @@
 
                 lft_layer {
 // MOD LFT
-                        display_name = "LFT"
+                        display_name = "LFT";
 // -----------------------------------------------------------------------------------------
 // |  ~*  |  1  |  2  |  3  |  4  |  5  |   |  Y  |  U   |  I  |  O  |  P  | [{   |
 // | SHFT |SHFT*|CTRL*| GUI*| ALT*|     |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -72,7 +72,7 @@
 
                 rgt_layer {
 // MOD RGT
-                        display_name = "RGT"
+                        display_name = "RGT";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  6  |  7   |  8  |  9  |  0  |  }]  |
 // | SHFT |  A  |  S  |  D  |  F  |  G  |   |     | SHFT*|CTRL*| GUI*| ALT*|  -_  |
@@ -88,7 +88,7 @@
 
                 nav_layer {
 // NAV
-                        display_name = "NAV"
+                        display_name = "NAV";
 // -----------------------------------------------------------------------------------------
 // |  TAB |     | BACK|  UP | NEXT|Re PG|   | MUTE|      |     |     |     | PSCRN|
 // | SHFT |insrt| LFT | DWN | RGT |Av PG|   | VOL-| SHFT*|CTRL*| GUI*| ALT*|      |
@@ -103,7 +103,7 @@
                 };
 
                 sys_layer {
-                        display_name = "SYS"
+                        display_name = "SYS";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  F1 | F2  | F3  | F4  | F5  |   | F6  | F7  | F8  | F9  | F10 | F11  |
 // |      |     |     |     |     |     |   |     |     |     |     |     | F12  |
