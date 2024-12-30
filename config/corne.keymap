@@ -94,12 +94,12 @@
 // |  TAB | TAB | BACK|  UP | NEXT|Re PG|   | MUTE|      |     |     |PSCRN| PSCRN|
 // | SHFT |insrt| LFT | DWN | RGT |Av PG|   | VOL-| SHFT*|CTRL*| GUI*| ALT*|      |
 // | CTRL | SUPR| INI |     | END |     |   | VOL+|      |     |     |     |      |
-//                    |     | QWE |     |   |     |  QWE | BSPC|
+//                    |     | QWE |SPACE|   |     |  QWE | BSPC|
                         bindings = <
    &kp TAB   &kp TAB   &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none    &kp PRINTSCREEN &kp PRINTSCREEN
    &kp LSHFT &kp INS   &kp LEFT        &kp DOWN  &kp RIGHT  &kp PG_DN       &kp C_VOL_DN  &kp LSHFT  &kp LCTRL    &kp LGUI   &kp LALT   &none
    &kp LCTRL &kp DEL   &kp HOME        &none     &kp END            &none        &kp C_VOL_UP  &none      &none        &none      &none      &none
-                  &kp LALT &td_0 &none                                    &none  &td_0 &none
+                  &kp LALT &td_0 &kp SPACE                           &none  &td_0 &kp BSPC
                         >;
                 };
 
