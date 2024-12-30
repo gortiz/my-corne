@@ -88,11 +88,11 @@
 //                    |     | QWE |     |   |     |  QWE | BSPC|
                         bindings = <
 //   &kp TAB   &none     &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none      &none      &kp PSCRN
-   &kp TAB   &none     &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none      &none     &none
+   &kp TAB   &none     &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none      &none     &kp PRINTSCREEN
 //   &kp TAB   &kp Q &kp W &kp E &kp R &kp T                                       &kp N6        &kp N7     &kp N8       &kp N9     &kp N0     &kp RBKT
 
-   &kp LSHFT &kp INS   &kp LEFT        &kp DOWN  &kp RIGHT          &kp PG_DOWN  &kp C_VOL_DN  &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &none
-//   &kp LSHFT &kp A     &kp S           &kp D     &kp F              &kp G        &none         &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &kp MINUS
+//   &kp LSHFT &kp INS   &kp LEFT        &kp DOWN  &kp RIGHT          &kp PG_DOWN  &kp C_VOL_DN  &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &none
+   &kp LSHFT &kp A     &kp S           &kp D     &kp F              &kp G        &none         &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &kp MINUS
 
    &kp LCTRL &kp DEL   &kp HOME        &none     &kp END            &none        &kp C_VOL_UP  &none      &none        &none      &none      &none
                   &kp LALT &to 0 &kp SPACE                                    &none  &to 0 &kp BSPC
