@@ -95,10 +95,14 @@
 // | CTRL | SUPR| INI |     | END |     |   | VOL+|      |     |     |     |      |
 //                    |     | QWE |     |   |     |  QWE | BSPC|
                         bindings = <
-   &kp TAB   &knone    &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none      &none      &kp PSCRN
-   &kp LSHFT &kp INS   &kp LEFT        &kp DOWN  &kp RIGHT          &kp PG_DOWN  &kp C_VOL_DN  &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &none
-   &kp LCTRL &kp DEL   &kp HOME        &none     &kp END            &none        &kp C_VOL_UP  &none      &none        &none      &none      &none
-                  &kp LALT &lo LY_QWE &kp SPACE                                    &none  &lo LY_QWE &kp BSPC
+//   &kp TAB   &knone    &kp C_AC_BACK   &kp UP    &kp C_AC_FORWARD   &kp PG_UP    &kp C_MUTE    &none      &none        &none      &none      &kp PSCRN
+//   &kp LSHFT &kp INS   &kp LEFT        &kp DOWN  &kp RIGHT          &kp PG_DOWN  &kp C_VOL_DN  &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &none
+//   &kp LCTRL &kp DEL   &kp HOME        &none     &kp END            &none        &kp C_VOL_UP  &none      &none        &none      &none      &none
+//                  &kp LALT &lo LY_QWE &kp SPACE                                    &none  &lo LY_QWE &kp BSPC
+   &kp TAB   &kp Q &kp W &kp E &kp R &kp T      &kp N6  &kp N7     &kp N8       &kp N9     &kp N0     &kp RBKT
+   &kp LSHFT &kp A &kp S &kp D &kp F &kp G      &none   &bt LSHFT  &bt LCTRL    &bt LGUI   &bt LALT   &kp MINUS
+   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B      &none   &none      &none        &none      &none      &kp EQUAL
+                  &kp LALT &td_l0 &kp SPACE   &kp RALT  &lo LY_QWE &kp BSPC
                         >;
                 };
 
@@ -111,8 +115,8 @@
 //                    |     | QWE |     |   |     | QWE |     |
                         bindings = <
    &kp ESC      &kp F1       &kp F2       &kp F3       &kp F4       &kp F5         &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &kp F11
-   &none        &none        &none        &none        &none        &none          &none    &none    &none  &none  &none  &kp F12
-   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR     &none    &none    &none  &none     &none  &none
+   &none        &none        &none        &none        &none        &none          &none    &none    &none  &none     &none   &kp F12
+   &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR     &none    &none    &none  &none     &none   &none
                                     &none     &lo LY_QWE  &kp SPACE      &none  &lo LY_QWE &kp BSPC
                         >;
                 };
