@@ -14,8 +14,6 @@
 #define LY_NAV 3
 #define LY_SYS 4
 
-#define(layer) &
-
 / {
     behaviors {
         td_l0: tap_dance_0 {
