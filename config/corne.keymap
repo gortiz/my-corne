@@ -18,18 +18,20 @@
     behaviors {
         td_l0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
+            label = "LFT_LY_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lo LY_LFT>, <&lo LY_NAV>>, <&lo LY_QWE>;
+            bindings = <&lo LY_LFT>, <&lo LY_NAV>, <&lo LY_QWE>;
         };
     };
 
     behaviors {
         td_l1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
+            label = "RGT_LY_DANCE";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&lo LY_RGT>, <&lo LY_SYS>>, <&lo LY_QWE>;
+            bindings = <&lo LY_RGT>, <&lo LY_SYS>, <&lo LY_QWE>;
         };
     };
    
