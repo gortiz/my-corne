@@ -56,10 +56,10 @@
         raise_layer {
             display-name = "Symbol";
             bindings = <
-&kp ESCAPE &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp UNDERSCORE        &kp PLUS       &trans            &trans      &trans        &kp BACKSLASH      &kp PIPE         &kp INSERT
-&trans     &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS             &kp EQUAL      &kp K_MENU        &kp LEFT    &kp DOWN      &kp UP_ARROW       &kp RIGHT        &sk RIGHT_ALT
-&trans     &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp STAR       &kp C_PLAY_PAUSE  &kp HOME    &kp PAGE_DOWN &kp PAGE_UP        &kp END          &none
-                                            &trans               &trans                &trans         &trans            &cl 2 2    &cl 1 1
+&kp ESCAPE &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp UNDERSCORE        &kp PLUS       &none        &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP    &kp END         &kp INSERT
+&trans     &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS             &kp EQUAL      &kp K_MENU    &kp LEFT    &kp DOWN       &kp UP_ARROW   &kp RIGHT       &sk RIGHT_ALT
+&trans     &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp STAR       &none         &none       &none          &none          &none           &none
+                                            &trans               &trans                &trans         &trans        &cl 2 2     &cl 1 1
             >;
         };
 
