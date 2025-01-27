@@ -48,18 +48,18 @@
             bindings = <
 &trans  &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none           &none       &kp F1      &kp F2     &kp F3   &kp F4  &kp PRINTSCREEN
 &trans  &none      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none           &none       &kp F5      &kp F6     &kp F7   &kp F8  &sk RIGHT_ALT
-&trans  &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &none       &kp F9      &kp F10    &kp F11  &kp F12 &none
-                                    &trans     &trans        &trans          &none       &cl 2 2    &cl 1 1
+&trans  &none      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &none       &kp F9      &kp F10    &kp F11  &kp F12 &sl 3
+                                    &trans     &trans        &trans          &none       &to 0       &to 0
             >;
         };
 
         raise_layer {
             display-name = "Symbol";
             bindings = <
-&kp ESCAPE &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp UNDERSCORE        &kp PLUS       &none        &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP    &kp END         &kp INSERT
+&kp ESCAPE &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE      &kp UNDERSCORE        &kp PLUS       &none         &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP    &kp END         &kp INSERT
 &trans     &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp MINUS             &kp EQUAL      &kp K_MENU    &kp LEFT    &kp DOWN       &kp UP_ARROW   &kp RIGHT       &sk RIGHT_ALT
-&trans     &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp STAR       &none         &none       &none          &none          &none           &none
-                                            &trans               &trans                &trans         &trans        &cl 2 2     &cl 1 1
+&trans     &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp STAR       &none         &none       &none          &none          &none           &sl 3
+                                            &trans               &trans                &trans         &trans        &to 0       &to 0
             >;
         };
 
@@ -68,8 +68,8 @@
             bindings = <
 &kp CAPS  &kp F1           &kp F2         &kp F3     &kp F4            &kp F5              &kp F6         &kp F7        &kp F8         &kp F9  &kp F10     &trans
 &trans    &kp F11          &kp F12        &trans     &trans            &trans              &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2   &trans  &bt BT_CLR  &trans
-&trans    &kp C_PLAY_PAUSE &kp C_PREVIOUS &kp C_NEXT &kp C_VOLUME_DOWN &kp C_VOLUME_UP     &trans         &trans        &bt BT_DISC 2  &trans  &trans      &kp PRINTSCREEN
-                                          &trans     &trans            &trans              &kp ENTER      &cl 2 2    &cl 1 1
+&trans    &kp C_PLAY_PAUSE &kp C_PREVIOUS &kp C_NEXT &kp C_VOLUME_DOWN &kp C_VOLUME_UP     &trans         &trans        &bt BT_DISC 2  &trans  &trans      &to 0
+                                          &trans     &trans            &trans              &kp ENTER      &to 0         &to 0
             >;
         };
     };
