@@ -329,6 +329,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">ESCAPE</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -344,6 +345,7 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(308, 42)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">`</text>
 </g>
 <g transform="translate(532, 42)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -460,6 +462,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#Media">
+<text x="0" y="0" class="key tap layer-activator">Media</text>
+</a><text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(224, 205)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -478,26 +483,24 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Symbol">
-<text x="0" y="0" class="key tap layer-activator">Symbol</text>
-</a><a href="#Symbol">
-<text x="0" y="24" class="key hold layer-activator">Symbol</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 <g transform="translate(616, 205)" class="key held keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<a href="#Number">
-<text x="0" y="0" class="key held tap layer-activator">Number</text>
-</a><a href="#Number">
-<text x="0" y="24" class="key held hold layer-activator">Number</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key held tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 661)" class="layer-Symbol">
 <text x="0" y="28" class="label" id="Symbol">Symbol:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 49)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<g transform="translate(28, 49)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<text x="0" y="0" class="key trans tap">▽</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -640,6 +643,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(812, 161)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#Media">
+<text x="0" y="0" class="key tap layer-activator">Media</text>
+</a><text x="0" y="24" class="key hold">sticky</text>
 </g>
 <g transform="translate(224, 205)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -659,18 +665,16 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key held keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<a href="#Symbol">
-<text x="0" y="0" class="key held tap layer-activator">Symbol</text>
-</a><a href="#Symbol">
-<text x="0" y="24" class="key held hold layer-activator">Symbol</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key held tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
+</g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Number">
-<text x="0" y="0" class="key tap layer-activator">Number</text>
-</a><a href="#Number">
-<text x="0" y="24" class="key hold layer-activator">Number</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-Media">
@@ -678,7 +682,7 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">CAPS</text>
+<text x="0" y="0" class="key tap">ESCAPE</text>
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -724,9 +728,9 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(28, 105)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<g transform="translate(28, 105)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">CAPS</text>
 </g>
 <g transform="translate(84, 105)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -832,7 +836,9 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(812, 161)" class="key held keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<text x="0" y="0" class="key held tap"><tspan style="font-size: 64%">PRINTSCREEN</tspan></text>
+<a href="#QUERTY">
+<text x="0" y="0" class="key held tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g transform="translate(224, 205)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -852,18 +858,16 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(554, 213) rotate(-15.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Symbol">
-<text x="0" y="0" class="key tap layer-activator">Symbol</text>
-</a><a href="#Symbol">
-<text x="0" y="24" class="key hold layer-activator">Symbol</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 <g transform="translate(616, 205)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Number">
-<text x="0" y="0" class="key tap layer-activator">Number</text>
-</a><a href="#Number">
-<text x="0" y="24" class="key hold layer-activator">Number</text>
-</a></g>
+<a href="#QUERTY">
+<text x="0" y="0" class="key tap layer-activator">QUERTY</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
+</g>
 </g>
 </g>
 <text x="870.0" y="1351.0" class="footer">Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a></text></svg>
